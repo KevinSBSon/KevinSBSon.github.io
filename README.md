@@ -15,3 +15,25 @@ The objective of this project was to build a model to predict the new trend in m
 <br>
 <br>
 *Regression, Random forest, XGBoost, Scikit-Learn
+
+## Neural Networks
+
+### Vehicle Proximity Warning System
+This project was built to support driver recognition when a dynamic driving situation. When I participated in car racing, I realized that it is difficult for drivers to detect cars nearby, especially on high-speed roads. So, I came up with the idea that giving alerts to drivers about approaching vehicles can be helpful for safe driving. Since most modern cars are equipped with a rearview camera, this can easily be applied. By using YOLO and CNN to detect only vehicles, the display shows a warning with red color when vehicles approach nearby. By doing so, drivers can easily identify cars very close. The project can be found [here](https://github.com/KevinSBSon/Vehicle-Proximity-Warning-System).
+<br>
+<br>
+*CNN, OpenCV, YOLO, Image Recognition, Image Processing, Tensorflow
+
+### Weather Image Classification Using Residual Network(ResNet)
+In this project, I built an image classification model to identify the weather in the picture. The data set contained 1125 images with four classes. I built ResNet 50 from scratch by using Tensorflow. In addition to building the main model, I built four different ResNet models, such as ResNet18, 34, 50, and 101, and compared their performances with plain deep Neural Network models to see the problem of vanishing gradients.The project can be found [here](https://github.com/KevinSBSon/ResNet_ImageClassification).
+<br>
+<br>
+*Image Classification, Tensorflow, Neural Network, Residual Network
+
+## AI Algorithms
+
+### Travelling Salesman Problem(TSP) Solver Using Search Algorithms in AI
+This project was to build algorithms to create the efficient path that a salesman would take while traveling between cities. The solution to any given TSP would be the shortest way to visit a finite number of cities, visiting each city only once and then returning to the starting point. More information about the problem is available on Wikipedia. Our team took two approaches, the first one was ‘Branch and Bound Depth First Search Algorithm’ to find the optimal solution, and the other one was ’Stochastic Local Search Algorithm’ to improve the performance of our problem solver. The project can be found [here](https://github.com/KevinSBSon/Travelling-Salesman-Problem-Solver-Using-Search-Algorithms-in-AI).
+<br>
+<br>
+*Artificial Intelligence, Branch and Bound Algorithm, Stochastic Local Search Algorithm
