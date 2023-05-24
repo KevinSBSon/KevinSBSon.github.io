@@ -10,6 +10,12 @@ Credit Default Prediction is a Kaggle competition from American Express. The obj
 
 ## Regression Problems
 
+### Predicting House Prices with Linear Regression and Gradient Boosting: A Comparative Study
+Predicting house prices accurately is a challenging task due to the complex and dynamic nature of the housing market. In recent years, machine learning techniques have been widely used for house price prediction. In this paper, we conduct a comparative study of Lidge, Lasso linear regression, and Gradient Boosting for house price prediction on a Kaggle competition dataset. We first perform exploratory data analysis and feature engineering to prepare the data. Then, we train and evaluate models using Lidge, Lasso linear regression, and Gradient Boosting with hyperparameter tuning. Our experimental results show that Gradient Boosting outperforms Lidge and Lasso linear regression in terms of predictive accuracy, with a root mean squared error (RMSE) of 0.0129. However, Lasso linear regression and Lidge provide interpretable feature importance scores, which can be useful for feature selection and model interpretation. Our study highlights the importance of choosing appropriate machine learning techniques for house price prediction, depending on the specific requirements of the application.
+<br>
+<br>
+*Regression, Ridge, Lasso, Gradient Boosting, Scikit-Learn
+
 ### Coming Year's Most Popular Music Prediction
 The objective of this project was to build a model to predict the new trend in music in the coming year. I used a music dataset from Spotify that consists of 169k songs with their characteristics, such as danceability, energy, duration, etc. The predictive model is built by combining multiple time series regression models on each feature. The cosine similarity is applied to identify the close relationship between predicted data and the new most popular songs. The project can be found [here](https://github.com/KevinSBSon/Coming-Years-Most-Popular-Music-Prediction).
 <br>
